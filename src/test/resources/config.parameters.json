@@ -1,0 +1,13 @@
+{
+  "url": "http://www.n11.com/",
+  "userName": "testautomationqa1234@gmail.com",
+  "password": "mQm4rIjYeYfTUECzw22a8Q==",
+  "invalidUserName" : "denemte@gmail.com",
+  "invalidPassword" : "123456789",
+  "loginErrorMessage" : "E-posta adresiniz veya şifreniz hatalı",
+  "duplicateErrorMessage" : "Bu e-posta adresi daha önce sisteme kaydolmuştur.",
+  "loginPageHeader": "Giriş Yap",
+  "userNameCheck": "SELENIUM MEMBER",
+  "enrolmentHeader": "n11.com'a Üye Olun",
+  "searchText": "Telefon"
+}

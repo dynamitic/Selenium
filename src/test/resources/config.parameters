@@ -1,0 +1,20 @@
+url = http://www.n11.com/
+
+//Login Stages
+userName = testautomationqa1234@gmail.com
+password = mQm4rIjYeYfTUECzw22a8Q==
+loginPageHeader = Üye Girişi
+userNameCheck = SELENIUM MEMBER
+duplicateErrorMessage = Bu e-posta adresi daha önce sisteme kaydolmuştur.
+
+//Login Stages with Invalid Credentials
+invalidUserName = denemte@gmail.com
+invalidPassword = 123456789
+loginErrorMessage = E-posta adresiniz veya şifreniz hatalı
+
+
+//Enrolment Stages
+enrolmentHeader = n11.com'a Üye Olun
+
+//Search Stages
+searchText = Telefon

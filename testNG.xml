@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="N11 Test Training" verbose="1">
+    <listeners>
+        <listener class-name="com.training.util.ExtentReports.ExtentReportClass"/>
+    </listeners>
+
+    <test name="Login UnSuccessful">
+        <classes>
+            <class name="com.training.scenarios.login.LoginUnsuccessful"/>
+        </classes>
+    </test>
+
+    <test name="Login Successful">
+        <classes>
+            <class name="com.training.scenarios.login.LoginSuccessful"/>
+        </classes>
+    </test>
+
+    <test name="Enroll a New User">
+        <classes>
+            <class name="com.training.scenarios.enrolment.EnrolmentSuccessful"/>
+        </classes>
+    </test>
+
+    <test name="Login and Logout Successful">
+        <classes>
+            <class name="com.training.scenarios.login.LoginSuccessful"/>
+            <class name="com.training.scenarios.logOut.LogoutSuccessful"/>
+        </classes>
+    </test>
+
+    <test name="Enroll with Duplicate Email">
+        <classes>
+            <class name="com.training.scenarios.enrolment.EnrolmentEmailDuplicateError"/>
+        </classes>
+
+    </test>
+</suite>

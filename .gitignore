@@ -1,0 +1,9 @@
+/ExtentReports/
+/Screenshots/
+/.idea/
+/.settings/
+/test-output/
+/.classpath
+/.project
+/training.iml
+/target/
